@@ -1,0 +1,57 @@
+.cow-container {
+  background: url("./images/cow_background-image1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.cow_over-effect::before {
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: 2;
+  filter: brightness(100%) opacity(0.7);
+  background: url("./images/over.png");
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+/* Eat meat & repeat red logo*/
+.cow_text-image {
+  margin: 0 auto;
+  padding-top: 1.5rem;
+  position: relative;
+  transform: scale(0.8);
+  z-index: 3;
+}
+
+/* Odaberite pravi komad mesa + arrow beneath */
+.cow_odaberite-text {
+  position: relative;
+  z-index: 3;
+  transform: scale(0.7);
+  margin: 0 auto;
+  text-align: center;
+}
+.cow_arrow-down {
+  position: relative;
+  margin: auto;
+  margin-top: -1rem;
+  padding-left: 3rem;
+  transform: scale(0.7);
+  z-index: 3;
+}
+
+/* Beef parts */
+.cow_container-img {
+  margin-top: -2rem;
+}
+.cow_cow {
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+  padding-bottom: 5rem;
+}

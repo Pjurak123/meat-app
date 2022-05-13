@@ -1,0 +1,82 @@
+.meat-container {
+  background: url("./images/over.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: contrast(0.9);
+  height: 100%;
+  width: 100%;
+}
+
+.meat_max-width {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Otkrij male tajne pečenja */
+.meat_male-tajne {
+  margin-left: 2rem;
+  height: 100%;
+  width: 60%;
+}
+
+/* Axe */
+.meat_axe {
+  position: relative;
+  left: -3%;
+  padding-top: 2rem;
+  transform: scale(0.95);
+  width: 100%;
+}
+
+/* Arrows */
+.meat_arrow {
+  position: absolute;
+  left: -0.5rem;
+  top: 6rem;
+}
+
+/* Garlic */
+
+.meat_garlic {
+  position: absolute;
+  top: 0;
+  right: -2.5rem;
+  transform: scale(0.5);
+}
+
+/* chilli */
+.meat_chili {
+  position: absolute;
+  left: -5rem;
+  top: 9rem;
+  transform: scale(0.4);
+  margin: 0;
+  padding: 0;
+}
+
+/* p1 */
+.meat_plant1 {
+  position: absolute;
+  top: 23rem;
+  right: -4rem;
+  transform: scale(0.5);
+}
+
+/* p2 */
+.meat_plant2 {
+  display: inline;
+  position: absolute;
+  top: 38rem;
+  left: 3rem;
+  transform: scale(0.5);
+}
+
+/* salt */
+.meat_salt {
+  position: absolute;
+  transform: scale(0.5);
+  bottom: 2rem;
+  left: 8rem;
+}

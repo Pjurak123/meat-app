@@ -1,0 +1,112 @@
+/* Container responsible for mobile version with 100% height of the device */
+.landing-container {
+  background: url("./images/back.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.landing_max-width {
+  position: relative;
+  max-width: 425px;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Container contain line /image eat meat & repeat/ arrow down */
+
+.landing_text-container {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  margin: 0 auto;
+  width: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.landing_line {
+  padding-bottom: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 55%;
+}
+
+.landing_arrow {
+  margin: 0 auto;
+  margin-top: 6rem;
+  transform: scale(0.5);
+}
+
+/* Knife and fork */
+.landing_knife {
+  position: absolute;
+  transform: scale(0.5);
+  top: -6%;
+  left: 73%;
+}
+.landing_fork {
+  position: absolute;
+  transform: scale(0.5);
+  top: 6rem;
+  left: 61%;
+}
+
+/* Papar */
+.landing_papar {
+  position: absolute;
+  transform: scale(0.45);
+  top: 69%;
+  right: -10%;
+}
+
+/* Onion */
+.landing_onion {
+  position: absolute;
+  top: 82%;
+  transform: scale(0.5);
+}
+
+/* Desktop version */
+
+@media screen and (min-width: 1440px) {
+  .landing-container {
+    background: url("./images/desktop-landing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    filter: grayscale(0.2);
+    width: 100%;
+  }
+  .landing_text-container {
+    width: 50%;
+  }
+  .landing_max-width {
+    max-width: 800px;
+    float: right;
+    width: 50%;
+  }
+  .landing_fork {
+    left: 31rem;
+    top: 20rem;
+    transform: scale(0.7);
+  }
+  .landing_knife {
+    left: 36.5rem;
+    top: 13rem;
+    transform: scale(0.7);
+  }
+  .landing_onion {
+    top: 43rem;
+    right: 7rem;
+    transform: scale(0.7);
+  }
+  .landing_papar {
+    top: 35rem;
+    left: -4rem;
+    transform: scale(0.7);
+  }
+}
