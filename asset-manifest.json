@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/meat-app/static/css/main.1d6113a6.css",
+    "main.js": "/meat-app/static/js/main.592be899.js",
+    "static/media/desktop-landing.png": "/meat-app/static/media/desktop-landing.d95c70ae34f8d8ad0b82.png",
+    "static/media/desktop-over.png": "/meat-app/static/media/desktop-over.a2778c3ae11623ecc951.png",
+    "static/media/back.png": "/meat-app/static/media/back.8eeb6422f95fa3ca48de.png",
+    "static/media/desktop-background1.png": "/meat-app/static/media/desktop-background1.726aaccc1b6771b99f7d.png",
+    "static/media/desktop-axe.png": "/meat-app/static/media/desktop-axe.10b12e11eaaf29033c50.png",
+    "static/media/over.png": "/meat-app/static/media/over.a3e868d456d1040f4656.png",
+    "static/media/cow_background-image1.png": "/meat-app/static/media/cow_background-image1.4fc0f277c58c7585b007.png",
+    "static/media/axe.png": "/meat-app/static/media/axe.31e201d2da9224192b24.png",
+    "static/media/ribeye.png": "/meat-app/static/media/ribeye.31cb26a1be52f302c2d9.png",
+    "static/media/beef-lorem.png": "/meat-app/static/media/beef-lorem.7ffa3d6d14ec9d8d9b5e.png",
+    "static/media/desktop-beef.png": "/meat-app/static/media/desktop-beef.3ec2ab4c6b74a46164fc.png",
+    "static/media/sol.png": "/meat-app/static/media/sol.7752ffe4f365741504c6.png",
+    "static/media/beef.png": "/meat-app/static/media/beef.62484f9ec46dd0e9e04c.png",
+    "static/media/desktop-text.png": "/meat-app/static/media/desktop-text.598c104559b55787aef8.png",
+    "static/media/desktop-cesnjak.png": "/meat-app/static/media/desktop-cesnjak.fed72a206a60114f0122.png",
+    "static/media/cesnjak.png": "/meat-app/static/media/cesnjak.6db1c9e88f4b1f96e579.png",
+    "static/media/desktop-chili.png": "/meat-app/static/media/desktop-chili.d4e146b328efe42f1d9f.png",
+    "static/media/desktop-p1.png": "/meat-app/static/media/desktop-p1.ff2ffb8740f69dfb9a41.png",
+    "static/media/papar.png": "/meat-app/static/media/papar.ef1c24239c553d264aa7.png",
+    "static/media/chilli.png": "/meat-app/static/media/chilli.c7fa5e7e78b594fbdc99.png",
+    "static/media/plant1.png": "/meat-app/static/media/plant1.d682a067334856c0909d.png",
+    "static/media/frame.png": "/meat-app/static/media/frame.7edd33ba391f56c03289.png",
+    "static/media/p3.png": "/meat-app/static/media/p3.5533c3b45ccf53bf59d6.png",
+    "static/media/text.png": "/meat-app/static/media/text.6905e59a3d3a51f8286b.png",
+    "static/media/plant2.png": "/meat-app/static/media/plant2.bd7ceb5cf1c8da9fff29.png",
+    "static/media/desktop-arrow.png": "/meat-app/static/media/desktop-arrow.3104861b471f102defd0.png",
+    "static/media/group-arrow.png": "/meat-app/static/media/group-arrow.c36b5e38741d721dde7d.png",
+    "static/media/male-tajne.png": "/meat-app/static/media/male-tajne.66523d7d1c810f395862.png",
+    "index.html": "/meat-app/index.html",
+    "main.1d6113a6.css.map": "/meat-app/static/css/main.1d6113a6.css.map",
+    "main.592be899.js.map": "/meat-app/static/js/main.592be899.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d6113a6.css",
+    "static/js/main.592be899.js"
+  ]
+}
