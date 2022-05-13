@@ -3,6 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
   filter: contrast(0.9);
   height: 100%;
   width: 100%;
@@ -35,6 +36,7 @@
   position: absolute;
   left: -0.5rem;
   top: 6rem;
+  z-index: 6;
 }
 
 /* Garlic */
@@ -79,4 +81,206 @@
   transform: scale(0.5);
   bottom: 2rem;
   left: 8rem;
+}
+
+/* popup */
+.popup-meat-container {
+  position: absolute;
+  background-color: #ffff;
+  border: 3px solid #c31700;
+  border-radius: 1rem;
+  padding: 2rem;
+  filter: opacity(0.93);
+  margin: 16rem 1rem;
+  z-index: 10;
+}
+
+.popup-x-container {
+  display: flex;
+  justify-content: end;
+}
+
+.rare-sirov {
+  transform: scale(0.7);
+  margin-left: -2.6rem;
+}
+.vector {
+  transform: scale(0.5);
+  margin-top: 0.5rem;
+  margin-left: -2.8rem;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -1.5rem;
+  margin-top: 1.5rem;
+}
+
+.clock {
+  transform: scale(0.5);
+}
+
+.fire-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -1rem;
+}
+
+.fire {
+  transform: scale(0.5);
+}
+
+.roboto {
+  color: #000;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-top: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.pečenje {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0.5rem;
+  font-weight: bolder;
+  letter-spacing: 0.135rem;
+}
+
+.upute {
+  font-family: "Roboto", sans-serif;
+  color: #585353;
+}
+
+/* Desktop version */
+
+/* 1440 x 900*/
+
+@media screen and (min-width: 1440px) {
+  .meat-container {
+    background: url("./images/desktop-over.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .meat_male-tajne {
+    transform: scale(0.4);
+  }
+
+  .meat_max-width {
+    max-width: fit-content;
+    height: 100%;
+    width: 100%;
+  }
+  .meat_axe {
+    top: -25rem;
+    left: -10rem;
+    transform: scale(0.8);
+  }
+
+  .meat_arrow {
+    top: 19rem;
+    left: 1rem;
+    transform: scale(0.8);
+  }
+  .meat_male-tajne {
+    position: relative;
+    left: 10rem;
+    transform: scale(0.4);
+  }
+
+  .meat_garlic {
+    transform: scale(0.9);
+    left: -1rem;
+    top: 15rem;
+  }
+
+  .meat_chili {
+    transform: scale(0.9);
+    left: 5.5rem;
+    top: 18rem;
+  }
+  .meat_plant2 {
+    transform: scale(0.8);
+    top: 54rem;
+    left: 10rem;
+  }
+  .meat_plant1 {
+    transform: scale(0.8);
+    top: 35rem;
+    right: 8rem;
+  }
+
+  .meat_salt {
+    top: 50rem;
+    left: 50rem;
+    transform: scale(1);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .meat-container {
+    background: url("./images/desktop-over.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .meat_male-tajne {
+    transform: scale(0.4);
+  }
+
+  .meat_max-width {
+    max-width: fit-content;
+    height: 100%;
+    width: 100%;
+  }
+  .meat_axe {
+    top: -40rem;
+    left: -17rem;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .meat_arrow {
+    top: 15rem;
+    left: 0;
+  }
+  .meat_male-tajne {
+    position: relative;
+    left: 10rem;
+    transform: scale(0.4);
+  }
+
+  .meat_garlic {
+    transform: scale(0.9);
+    left: -6rem;
+    top: 15rem;
+  }
+
+  .meat_chili {
+    transform: scale(0.9);
+    left: 1.5rem;
+    top: 15rem;
+  }
+  .meat_plant2 {
+    transform: scale(0.8);
+    top: 54rem;
+    left: 10rem;
+  }
+  .meat_plant1 {
+    transform: scale(0.8);
+    right: 12rem;
+  }
+
+  .meat_salt {
+    top: 50rem;
+    left: 65rem;
+    transform: scale(1);
+  }
+
+  .popup-meat-container {
+    left: 40%;
+    margin-top: 35rem;
+  }
 }

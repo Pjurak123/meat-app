@@ -14,6 +14,9 @@
   z-index: 2;
   filter: brightness(100%) opacity(0.7);
   background: url("./images/over.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -54,4 +57,256 @@
   position: relative;
   z-index: 3;
   padding-bottom: 5rem;
+}
+
+/* Pop up  */
+.cow-popup {
+  position: absolute;
+  background-color: #ffff;
+  border: 3px solid #c31700;
+  border-radius: 1rem;
+  padding: 2rem;
+  filter: opacity(0.93);
+  margin: 4rem 1rem;
+  z-index: 10;
+}
+
+.x-container {
+  display: flex;
+  margin: 0 auto;
+  float: right;
+}
+.x {
+  transform: scale(0.5);
+}
+
+.x-button {
+  text-decoration: none;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.ribeye {
+  position: absolute;
+  top: -10rem;
+  left: -4rem;
+  transform: scale(0.6);
+}
+
+.popup-text {
+  position: relative;
+  text-align: left;
+  justify-content: left;
+  justify-self: left;
+  justify-items: left;
+  width: 100%;
+}
+
+.ribeye-steak {
+  margin-top: 4rem;
+  font-size: 2rem;
+  font-weight: bold;
+  transform: scale(0.8);
+  display: flex;
+  margin-left: -1.77rem;
+  width: 100%;
+}
+.ribeye-text {
+  line-height: 1.8rem;
+  font-family: "Red Hat Display", sans-serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.red-line {
+  width: 30%;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.popup-span {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+}
+
+.plate {
+  transform: scale(0.5);
+  margin-left: -1.1rem;
+}
+
+.popup-lorem {
+  display: flex;
+  flex-direction: row;
+}
+.img-lorem {
+  width: 50%;
+}
+
+.lorem {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.arrow2 {
+  margin-top: 0.5rem;
+  transform: scale(0.5);
+}
+
+.display {
+  display: none;
+}
+.cow_cow {
+  cursor: pointer;
+}
+
+/* Desktop version */
+@media screen and (min-width: 1440px) {
+  .cow-container {
+    background: url("./images/desktop-background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(1);
+    position: relative;
+    z-index: 1;
+  }
+  .cow_over-effect::before {
+  }
+  .cow_odaberite-text {
+    background-color: #47761f;
+    padding: 4rem;
+    position: relative;
+    z-index: 3;
+    transform: scale(0.5);
+  }
+  .cow_text-container {
+    display: inline-block;
+    position: absolute;
+    right: -7rem;
+    top: 8.5rem;
+  }
+  .cow_arrow-down {
+    left: -4rem;
+    top: -7rem;
+  }
+  .cow_cow {
+    transform: scale(0.8);
+    margin-top: -9rem;
+  }
+
+  .cow-popup {
+    width: 70%;
+  }
+
+  .popup-text {
+    max-width: 45%;
+    margin: 0 auto;
+    margin-right: 4rem;
+    width: 75%;
+  }
+  .popup-prijedlog {
+    width: 25%;
+    margin-top: 5.8rem;
+    align-self: center;
+  }
+  .ribeye-steak {
+    margin-top: 0;
+  }
+
+  .ribeye-text {
+    margin: 4rem 0;
+    font-family: "Red Hat Display", sans-serif;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img-lorem {
+    height: 100%;
+    width: 100%;
+  }
+  .popup-lorem {
+    flex-direction: column;
+  }
+
+  .cow-popup {
+    border: 5px solid #c31700;
+    left: 15%;
+    margin-top: 25rem;
+  }
+
+  .ribeye {
+    transform: scale(0.8);
+    left: -12rem;
+    top: 3rem;
+  }
+  .plate {
+    position: absolute;
+    top: 22rem;
+    padding-top: 1rem;
+  }
+  .prijedlog {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: bolder;
+    margin-bottom: 1.5rem;
+  }
+
+  .lorem {
+    width: 100%;
+    padding-left: 2rem;
+    margin-top: 1rem;
+  }
+  .arrow2 {
+    padding-left: 3rem;
+    position: absolute;
+    right: 5rem;
+    bottom: 5.5rem;
+  }
+}
+
+/* 1920 x 1080 */
+
+@media screen and (min-width: 1920px) {
+  .cow-popup {
+    padding: 7rem;
+  }
+  .ribeye {
+    transform: scale(1);
+    left: -12rem;
+    top: 5rem;
+  }
+
+  .ribeye-steak {
+    margin-left: -3rem;
+  }
+
+  .prijedlog {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .plate {
+    top: 27rem;
+    transform: scale(0.6);
+  }
+
+  .arrow2 {
+    bottom: 8.5rem;
+  }
+  .x {
+    transform: scale(1);
+  }
+  .x-container {
+    margin-top: -5rem;
+    margin-right: -4rem;
+  }
+  .cow_text-container {
+    right: 5rem;
+  }
 }
