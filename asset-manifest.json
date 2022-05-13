@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/meat-app/static/css/main.1d6113a6.css",
+    "main.css": "/meat-app/static/css/main.66693b09.css",
     "main.js": "/meat-app/static/js/main.592be899.js",
     "static/media/desktop-landing.png": "/meat-app/static/media/desktop-landing.d95c70ae34f8d8ad0b82.png",
     "static/media/desktop-over.png": "/meat-app/static/media/desktop-over.a2778c3ae11623ecc951.png",
@@ -31,11 +31,11 @@
     "static/media/group-arrow.png": "/meat-app/static/media/group-arrow.c36b5e38741d721dde7d.png",
     "static/media/male-tajne.png": "/meat-app/static/media/male-tajne.66523d7d1c810f395862.png",
     "index.html": "/meat-app/index.html",
-    "main.1d6113a6.css.map": "/meat-app/static/css/main.1d6113a6.css.map",
+    "main.66693b09.css.map": "/meat-app/static/css/main.66693b09.css.map",
     "main.592be899.js.map": "/meat-app/static/js/main.592be899.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d6113a6.css",
+    "static/css/main.66693b09.css",
     "static/js/main.592be899.js"
   ]
 }
